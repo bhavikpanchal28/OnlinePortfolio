@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavik Panchal </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2ab27a19d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="name">Bhavik</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Welcome to<br> <span>Bhavik Panchal's</span> <br> portfolio</h1>
+            </div>
+        </div>
+
+    </div>
+<!-- ------------------------about------------------  -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                   <img src="images/about.jpg">
+
+                </div>
+                <div class="about-col2">
+                     <h1 class="subtitle">About Me</h1>
+                     <p>I am a full stack web developer, looking for an oppurtunity to apply creative, analytical and technical skills on a development team.</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                     </div>
+
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Application Design & Development</span><br>(Html/CSS)</li>
+                            <li><span>Python</span></li>
+                            <li><span>Java</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>Android Studio</span><br>Android Appliation Development</li>
+                            <li><span>Familiar with C</span></li>
+                            <li><span>Effective Communication</span></li>
+                            <li><span>Detail Oriented</span></li>
+                            <li><span>Familiar working with Agile, Scrum and Waterfall Methodologies</span></li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - CURRENT</span><br>Assistant Manager | <b>Western Motel</b>
+                                <li>- Assist with managing all of the aspects of the motel, including checking-in and assisting guests, as well as providing solutions for any administrating problems and supervising staff.</li>
+                            </li>
+
+                            <li><span>2017-2022</span><br>Volunteer (Lab station coordinator & guide) | <b>Ontario Tech University</b>
+                                <li>- Led tours and assisted with hosting lab seminars through the buildings of Ontario Tech University (and online), displaying all the school has to offer to the potentially new students and their parents.</li>
+                            </li>
+                           
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2016-2022</span><br>
+                                Bachelor of Software Engineering (Honours) <br>
+                                <b>Ontario Tech University</b>
+                                <li>- Achieved Dean's List in final 6 Semesters</li>
+                                <li>- Completed Capstone Project in Final Year</li>
+                            </li>
+                            <li>
+                                <b>Relevant Coursework:</b><br>
+                                Java Programming, C++, Data Structures, Object-Oriented Programming, Database Management Solutions, Information Security, Web Programming, Assembly Language Programming, Computer Architecture, Software Engineering Process Management, Software Quality Testing
+                            </li>
+
+                         </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--------------------------services------------------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle2">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p></p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>Ui/UX Design</h2>
+                <p></p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile"></i>
+                <h2>App Design</h2>
+                <p></p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- ----------portfolio--------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle3">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/weatherapp.png">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>This is a simple weather application, where the user will be prompted to input any location in the world. After the location is selected, all information on that locations current weather will be printed</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/movieapp.jpg">
+                <div class="layer">
+                    <h3>Movie App</h3>
+                    <p>This is a movie information application, where the user will be prompted to input any movie ever. The application will then print information on that movie such as it's poster, IMDB rating, release year, runtime, plot, cast and etc. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/stockapp.png">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>This is a simple weather application, where the user will be prompted to input any location in the world. After the location is selected, all information on that locations current weather will be printed</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div> 
+        <a href="#" class="btn">See More</a>
+        
+    </div>
+
+</div>
+<!-- ----contact-------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle4">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> Bhavik.panchal@ontariotechu.net</p>
+                <p><i class="fa-solid fa-phone"></i> 905-550-5622</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/bhavikpanchal28"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-solid fa-globe"></i></a>
+                </div>
+                <a href="images/BhavikPanchalResume.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="our Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Bhavik Panchal</p>
+
+    </div>
+
+</div>
+
+
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyzbbVEUzQyPXubylRP2f3iXvyFTcI26dQp2V8q6ks8yQ7kT2foNKJPG45zc-vI7V8G/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
